@@ -39,3 +39,13 @@ The result of merging two branches together is to add both the code added to the
 both branches and to delete the code deleted from the files in the branches. We represent it
 like that in the diagram because both commits from both previous branches get merged into the 
 new branch.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic Merging:
++faster, takes less time, user doesn't need to read over all of the code
+-might ask you to resolve merge conflicts when it is unnecassary
+
+Manually:
++You know exactly what is staying and what you are deleting
+-it takes a VERY long time to do

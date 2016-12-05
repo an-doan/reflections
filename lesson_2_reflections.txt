@@ -18,3 +18,12 @@ so that is what it offers.
 You can only add one logical change to your staging area and commit that change before committing
 more changes. For example if you changed two files that you want to seperate into two different
 commits, you can add one file to the staging area and commit that one before committing the other file.
+
+4. What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Branches are helpful when you want to create a different version of the app but you want to
+keep the old version as well, or if you wanted to experiment with the app, but you don't want
+your old version to be destroyed if something goes wrong. Branches help because they allow you 
+to have two versions of your app that you can easily go back to by using git checkout.
+

@@ -12,3 +12,9 @@ The staging area is different from the working directory and the repository beca
 which files will be commited. The working directory has all the files and contains the repository,
 and the repository contains the commits. With the staging area, you can choose which files to commit, 
 so that is what it offers.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+
+You can only add one logical change to your staging area and commit that change before committing
+more changes. For example if you changed two files that you want to seperate into two different
+commits, you can add one file to the staging area and commit that one before committing the other file.

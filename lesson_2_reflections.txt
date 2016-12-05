@@ -31,3 +31,11 @@ to have two versions of your app that you can easily go back to by using git che
 
 Diagrams help you visualize the branch structure because they allow you to see which branches
 are parents of which and which commits can or cannot be reached in that branch.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
+
+The result of merging two branches together is to add both the code added to the files from
+both branches and to delete the code deleted from the files in the branches. We represent it
+like that in the diagram because both commits from both previous branches get merged into the 
+new branch.

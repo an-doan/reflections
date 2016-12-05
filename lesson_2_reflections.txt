@@ -27,3 +27,7 @@ keep the old version as well, or if you wanted to experiment with the app, but y
 your old version to be destroyed if something goes wrong. Branches help because they allow you 
 to have two versions of your app that you can easily go back to by using git checkout.
 
+5. How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch structure because they allow you to see which branches
+are parents of which and which commits can or cannot be reached in that branch.

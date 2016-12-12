@@ -13,3 +13,7 @@ The benefit of having a copy of the last known state of the remote stored locall
 4. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You can collaborate by using other types version control like dropbox or google drive to share your files. It would be easier to merge changes and fix conflicts but it would be harder to see all of the versions of your files.
+
+5. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch when you want to make changes that might ruin your master branch. The benefits of making a seperate branch is that you can revert back to the original version of the code very quickly and you aren't ruining your master branch. The benefits of adding changes to the master branch is that it's easier to merge changes from different collaborators.

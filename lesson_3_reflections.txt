@@ -9,3 +9,7 @@ You might want to always pull changes manually because someone else might make a
 3. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit of having a copy of the last known state of the remote stored locally is that you can merge conflicts caused by changes made in collaborations that are not synced with your changes.
+
+4. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You can collaborate by using other types version control like dropbox or google drive to share your files. It would be easier to merge changes and fix conflicts but it would be harder to see all of the versions of your files.
